@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "password": "super_secret_password_from_john"
+    },
+    {
+      "id": 2,
+      "name": "Alice",
+      "password": "super_secret_password_from_alice"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Web app security",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae ligula in urna finibus ullamcorper et at mi. Quisque mauris turpis, dignissim sed vehicula a, dapibus euismod mauris. Sed non odio a tortor ornare mollis eget at elit. Suspendisse potenti."
+    },
+    {
+      "id": 2,
+      "title": "OWASP Top 10",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae ligula in urna finibus ullamcorper et at mi. Quisque mauris turpis, dignissim sed vehicula a, dapibus euismod mauris. Sed non odio a tortor ornare mollis eget at elit. Suspendisse potenti."
+    },
+    {
+      "id": 3,
+      "title": "<script>alert('XSS Attack!');</script>",
+      "text": "asdsa"
+    },
+    {
+      "id": 4,
+      "title": "&lt;script&gt;alert('XSS Attack!');&lt;/script&gt;",
+      "text": "asdsdsads"
+    }
+  ]
+}

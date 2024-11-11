@@ -1,0 +1,31 @@
+{
+  "name": "web2-lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm:client\" \"npm:server\"",
+    "build": "tsc",
+    "client": "node dist/client.js",
+    "server": "node dist/server.js",
+    "dev": "concurrently --kill-others \"nodemon --watch src/client --exec ts-node src/client.ts\" \"nodemon --watch src/server --exec ts-node src/server.ts\""
+  },
+  "keywords": [],
+  "author": "Fran Zlatar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "pug": "^3.0.3",
+    "xss": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

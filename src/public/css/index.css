@@ -1,0 +1,11 @@
+#postForm {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+#postForm button {
+  width: 50px;
+}
